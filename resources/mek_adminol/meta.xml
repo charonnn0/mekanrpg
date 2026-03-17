@@ -1,0 +1,6 @@
+<meta>
+    <info author="YourName" version="1.0" name="AdminOL Display" description="Displays image with dxDrawImage and plays sound on /adminol command" />
+    <script src="client.lua" type="client" />
+    <file src="adminol.png" />
+    <file src="adminol.wav" />
+</meta>

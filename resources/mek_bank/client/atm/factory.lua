@@ -1,0 +1,21 @@
+function initializeATM()
+	userStore = useStore("user")
+	userStore.set("name", localPlayer:getName():gsub("_", " "))
+	triggerServerEvent("bank.getHistory", localPlayer)
+end
+
+addEvent("atm.onInteraction", true)
+addEventHandler("atm.onInteraction", localPlayer, function()
+	showPage("atm")
+	useStore("bank").set("actionLimit", ATM_ACTION_LIMIT)
+	useStore("moneyActions").set("inputHelperText", "")
+	useStore("moneyActions").set("sendToInputHelperText", "")
+end)
+
+addEvent("bank.onInteraction", true)
+addEventHandler("bank.onInteraction", localPlayer, function()
+	useStore("bank").set("actionLimit", 5000000)
+	showPage("atm")
+	useStore("moneyActions").set("inputHelperText", "")
+	useStore("moneyActions").set("sendToInputHelperText", "")
+end)

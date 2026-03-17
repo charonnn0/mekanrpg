@@ -1,0 +1,12 @@
+<meta>
+    <script src=".crown/bundle.lua" type="shared" cache="false" />
+    <min_mta_version server="1.6.0-9.22470" />
+    <oop>true</oop>
+	
+    <info author="reklampanel" type="script" name="rekalms" version="1.0" description="DX reklam paneli"/>
+    
+    <script src="client.lua" type="client"/>
+    <script src="server.lua" type="server"/>
+    <file src="public/ads1.jpg" />
+    <file src="public/ads2.jpg" />
+</meta>

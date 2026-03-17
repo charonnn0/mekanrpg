@@ -1,0 +1,11 @@
+<meta>
+    <script src=".crown/bundle.lua" type="shared" cache="false" />
+    <min_mta_version server="1.6.0-9.22470" />
+    <oop>true</oop>
+    
+    <script src="server/player.lua" type="server" />
+    <script src="server/vehicle.lua" type="server" />
+    
+    <export function="saveVehicle" type="server" />
+    <export function="saveVehicleMods" type="server" />
+</meta>

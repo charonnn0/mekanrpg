@@ -1,0 +1,5 @@
+<meta>
+    <info author="matias" version="1.6.0-9.23324.0" description="server-side script" type="script" />
+    
+    <script src="server.lua" type="server" />
+</meta>

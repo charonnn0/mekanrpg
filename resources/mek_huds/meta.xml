@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meta>
+    <download_priority_group>1</download_priority_group>
+    <oop>true</oop>
+
+    <script src="client1.lua" type="client" cache="false" />
+
+    <file src="files/breeze-bold.ttf" />
+    <file src="files/breeze-medium.ttf" />
+    <file src="files/breeze-regular.ttf" />
+    <file src="files/breeze-thin.ttf" />
+    <file src="files/breeze-light.ttf" />
+    <file src="files/Sweet.ttf" />
+    <file src="files/default.otf" />
+	
+	<file src="files/avalon.ttf" />
+    <file src="files/avalon-bold.ttf" />
+	
+    <file src="files/ps-bold.ttf" />
+    <file src="files/ps-bolditalic.ttf" />
+    <file src="files/ps-regular.ttf" />
+    <file src="files/ps-italic.ttf" />
+    <file src="files/ps-thin.ttf" />
+    <file src="files/ps-thinitalic.ttf" />
+    <file src="files/sertfont.ttf" />
+    <file src="files/ps-black.ttf" />
+    <file src="files/ps-blackitalic.ttf" />
+    <file src="files/ps-elight.ttf" />
+    <file src="files/ps-eligthitalic.ttf" />
+    <file src="files/ps-light.ttf" />
+    <file src="files/ps-lightitalic.ttf" />
+    <file src="files/ps-medium.ttf" />
+    <file src="files/ps-mediumitalic.ttf" />
+    <file src="files/ProximaNovaBold.ttf" />
+    <file src="files/ProximaNovaLight.ttf" />
+    <file src="files/ProximaNovaRegular.ttf" />
+    <file src="files/ProximaNovaMedium.ttf" />
+	
+	<file src="files/kf-bold.ttf" />
+    <file src="files/kf-bolditalic.ttf" />
+    <file src="files/kf-regular.ttf" />
+    <file src="files/kf-italic.ttf" />
+	
+	<file src="files/np-bold.ttf" />
+	<file src="files/np-extralight.ttf" />
+    <file src="files/np-light.ttf" />
+    <file src="files/np-regular.ttf" />
+    <file src="files/np-medium.ttf" />
+	
+	<file src="files/in-bold.ttf" />
+	<file src="files/in-elight.ttf" />
+    <file src="files/in-elightitalic.ttf" />
+    <file src="files/in-italic.ttf" />
+    <file src="files/in-light.ttf" />
+	<file src="files/in-lightitalic.ttf" />
+	<file src="files/in-regular.ttf" />
+    <file src="files/in-thin.ttf" />
+    <file src="files/in-thinitalic.ttf" />
+	<file src="files/in-medium.ttf" />
+	
+    <file src="files/BoldFont.ttf" />
+    <file src="files/FontAwesome.ttf" />
+    <file src="files/FontAwesome2.ttf" />
+    <file src="files/FontAwesomeBrand.ttf" />
+    <file src="files/FontAwesomeRegular.otf" />
+    <file src="files/gotham_light.ttf" />
+    <file src="files/OpenSans.ttf" />
+    <file src="files/Roboto.ttf" />
+    <file src="files/RobotoB.ttf" />
+    <file src="files/RobotoL.ttf" />
+    <file src="files/TahomaBold.ttf" />
+    <file src="files/Bebas.ttf" />
+    <file src="files/BebasNeueRegular.otf" />
+    <file src="files/BebasNeueLight.otf" />
+    <file src="files/BebasNeueBold.otf" />
+    <file src="files/IckyticketMono.ttf" />
+    <file src="files/Impact.ttf" />
+    <file src="files/Pixellari.ttf" />
+    <file src="files/SweetSixteen.ttf" />
+    <file src="files/UbuntuBold.ttf" />
+    <file src="files/UbuntuLight.ttf" />
+    <file src="files/UbuntuRegular.ttf" />
+
+    <file src="files/sf-black.ttf" />
+    <file src="files/sf-bold.ttf" />
+    <file src="files/sf-medium.ttf" />
+    <file src="files/sf-regular.ttf" />
+    <file src="files/sf-thin.ttf" />
+	<file src="files/sf-regular-italic.ttf" />
+    <file src="files/FontAwesomeSolid.otf" />
+    <file src="files/ProximaNova.otf" />
+    <export function="getFont" type="client" />
+
+</meta>

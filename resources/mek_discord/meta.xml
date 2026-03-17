@@ -1,0 +1,13 @@
+<meta>
+    <script src=".crown/bundle.lua" type="shared" cache="false" />
+    <min_mta_version server="1.6.0-9.22470" />
+    <oop>true</oop>
+    
+    <script src="server.lua" type="server" />
+    <script src="client.lua" type="client" cache="false" />
+    
+    <export function="sendMessage" type="server" />
+    <acl_request>
+        <right name="function.fetchRemote" access="true" />
+    </acl_request>
+</meta>

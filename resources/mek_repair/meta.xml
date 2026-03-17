@@ -1,0 +1,12 @@
+<meta>
+    <script src=".crown/bundle.lua" type="shared" cache="false" />
+    <min_mta_version server="1.6.0-9.22470" />
+    <oop>true</oop>
+    <script src="views/load.lua" type="client" cache="false" />
+    <script src="views/utils.lua" type="client" cache="false" />
+    
+    <script src="source.lua" type="server" />
+    
+    <file src="models/Wrench1.dff" />
+    <file src="models/Wrench1.txd" />
+</meta>

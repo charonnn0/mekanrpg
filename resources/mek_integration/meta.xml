@@ -1,0 +1,32 @@
+<meta>
+    <script src=".crown/bundle.lua" type="shared" cache="false" />
+    <min_mta_version server="1.6.0-9.22470" />
+    <oop>true</oop>
+    
+    <script src="shared.lua" type="shared" cache="false" />
+    
+    <export function="getStaffTitle" type="shared" />
+    <export function="getStaffTitles" type="shared" />
+    <export function="getAdminTitles" type="shared" />
+    <export function="getAdminTitle" type="shared" />
+    <export function="getPlayerAdminTitle" type="shared" />
+    
+	<export function="isPlayerServerFounder" type="shared" />
+    <export function="isPlayerServerOwner" type="shared" />
+    <export function="isPlayerGeneralManager" type="shared" />
+    <export function="isPlayerServerAdministrator" type="shared" />
+    <export function="isPlayerServerManager" type="shared" />
+    <export function="isPlayerGeneralAdmin" type="shared" />
+    <export function="isPlayerLeaderAdmin" type="shared" />
+    <export function="isPlayerSeniorAdmin" type="shared" />
+    <export function="isPlayerAdmin3" type="shared" />
+    <export function="isPlayerAdmin2" type="shared" />
+    <export function="isPlayerAdmin1" type="shared" />
+    <export function="isPlayerTrialAdmin" type="shared" />
+
+	 
+    
+    <export function="isPlayerManager" type="shared" />
+	<export function="canAdminPunish" type="shared" />
+
+</meta>

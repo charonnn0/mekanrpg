@@ -1,0 +1,12 @@
+<meta>
+    <script src=".crown/bundle.lua" type="shared" cache="false" />
+    <min_mta_version server="1.6.0-9.22470" />
+    <oop>true</oop>
+    <download_priority_group>-999</download_priority_group>
+    
+    <script src="client.lua" type="client" cache="false" />
+    
+    <file src="public/**/*.*" />
+    
+    <export function="setCursor" type="client" />
+</meta>

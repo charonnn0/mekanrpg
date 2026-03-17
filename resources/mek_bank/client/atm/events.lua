@@ -1,0 +1,13 @@
+addEvent("bank.removeLoading", true)
+addEventHandler("bank.removeLoading", root, function()
+	local store = useStore("bank")
+	store.set("actionLimit", ATM_ACTION_LIMIT)
+	store.set("loading", false)
+	triggerServerEvent("bank.getHistory", localPlayer)
+end)
+
+addEvent("bank.sendHistory", true)
+addEventHandler("bank.sendHistory", root, function(history)
+	local store = useStore("bank")
+	store.set("history", history)
+end)
